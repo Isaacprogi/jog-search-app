@@ -1,0 +1,119 @@
+.Home {
+  width: 100%;
+  min-height: calc(100% - 4rem);
+  position: relative;
+  display: flex;
+}
+.Home .left-packs {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.Home .left-packs span {
+  background: rgb(1, 1, 63);
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.Home .left {
+  background: rgb(6, 6, 46);
+  flex: 1;
+}
+.Home .left .download-cv-button {
+  background-color: rgb(11, 11, 80);
+  padding: 1rem;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .Home .left .download-cv-button {
+    display: none;
+  }
+}
+.Home .left .outer-cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: -moz-max-content;
+  height: max-content;
+  border-bottom-right-radius: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .Home .left .outer-cover {
+    height: 100%;
+    justify-content: center;
+  }
+}
+.Home .left .outer-cover .img-background {
+  margin-top: 2rem;
+  min-width: 10rem;
+  min-height: 10rem;
+  border-radius: 100%;
+  background-color: rgb(197, 179, 179);
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .Home .left .outer-cover .img-background {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+.Home .left .outer-cover .img-background .avatar {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 100%;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .Home .left .outer-cover .img-background .avatar {
+    width: 19rem;
+    height: 19rem;
+  }
+}
+.Home .left .outer-cover .img-background .avatar img {
+  width: 100%;
+  height: 100%;
+}
+.Home .left .outer-cover .intro {
+  padding: 2rem;
+  color: white;
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .Home .left .outer-cover .intro {
+    display: none;
+  }
+}
+.Home .left .outer-cover .intro span {
+  width: 100%;
+  background-color: rgb(11, 11, 80);
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+}
+.Home .right {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .Home .right {
+    display: block;
+    flex: 1;
+  }
+}/*# sourceMappingURL=Home.css.map */
